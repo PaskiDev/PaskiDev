@@ -1,28 +1,65 @@
+# Pasqual Peñalver
 
-# <b>👋 Hey, I'm Paski</b>
-The most important about me is that I'm a full-stack developer and I love it. Also I'm a blockchain enthusiast, so if there's a chance to use this tech, I'll do it. I can handle any problems that could came out and I love to search for solutions (also I like to create new solutions).
+Systems developer in Barcelona. I build developer tools with [Syrakon](https://syrakon.com), a small group of devs.
 
-There is a Tech Stack that I love. I'll show you my favourite, but I really don't care to use another one for a specific project.
+Databases, version control, container orchestration and the web layer on top of them — mostly in Rust and Go, self-hosted on our own metal.
 
-## <b>💻 My Tech Stack</b>
-I must say I love to work with different OS, but for my Apps, normally I prefer to use [Ubuntu Server](https://ubuntu.com/server).
-
-But I can use also [Alma Linux](https://almalinux.org/), [Debian](https://www.debian.org/) or even [OpenSUSE](https://www.opensuse.org/). You're going to agree with me that ArchLinux is the best Desktop OS but for server is pretty insecure.
-
-### <b>✨ The chosen one</b>
-- <b>Frontend: </b>HTML, CSS, JS ([React](https://react.dev/)/[NextJS](https://nextjs.org/), [ThreeJS](https://threejs.org/), [ChartJS](https://www.chartjs.org/))
-- <b>Backend: </b>[NodeJS](https://nodejs.org/en) ([npm](https://www.npmjs.com/)), [Rust](https://www.rust-lang.org/) or [Go](https://go.dev/) (depends on project and server)
-- <b>Database: </b>[CockroachDB](https://www.cockroachlabs.com/), [MongoDB](https://www.mongodb.com/) or [PostgreSQL](https://www.postgresql.org/) (depends on project and server)
-- <b>CMS: </b> [PayloadJS](https://payloadcms.com/) (blazingly fast)
-- <b>Website Engine: </b> [Caddy](https://caddyserver.com/)
-
-- <b>App development: </b> [Tauri](https://v2.tauri.app/), [Kotlin Multiplatform](https://kotlinlang.org/) or [Dart](https://dart.dev/) ([Flutter](https://flutter.dev/))
-
-#### <b>🌍 For Websites</b>
-I love to use [Payload CMS](https://payloadcms.com/) + [Astro](https://astro.build/), with these the website is so fast to develop. If you're familiar with NodeJS, you can try to use the SSR (Server Side Rendering) function for AstroJS to improve the loads of the website, instead of the default usage for AstroJS related to Static Site Generation.
-
-## <b>📁 Projects</b>
-I've resestructurized where to upload my academic projects and my own so:
-- [🎓 Academical Projects](https://github.com/PaskiOnSalesians)
+[![Website](https://img.shields.io/badge/paski.dev-111111?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://paski.dev)
+[![Syrakon](https://img.shields.io/badge/Syrakon-1f2937?style=for-the-badge)](https://syrakon.com)
+[![Logbook](https://img.shields.io/badge/rumb.net-logbook-0f766e?style=for-the-badge)](https://rumb.net)
+[![Email](https://img.shields.io/badge/public%40paski.dev-EA4335?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:public@paski.dev)
 
 ---
+
+## Languages
+
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
+## Web
+
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![SvelteKit](https://img.shields.io/badge/SvelteKit-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+## Infrastructure
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Podman](https://img.shields.io/badge/Podman-892CA0?style=for-the-badge&logo=podman&logoColor=white)
+![k3s](https://img.shields.io/badge/k3s-FFC61C?style=for-the-badge&logo=k3s&logoColor=black)
+![Caddy](https://img.shields.io/badge/Caddy-1F88C0?style=for-the-badge&logo=caddy&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+
+---
+
+## What I work on
+
+| Project | What it is |
+| --- | --- |
+| **[arkeion](https://arkeion.tech)** | Versioned, audited database engine written in Rust. Every write is a signed commit; full-text search, vectors and time travel are first-class, not extensions. |
+| **[quota](https://quota.at)** | Usage metering and billing for EU teams. One URL change instead of an integration sprint. |
+| **[svitrio](https://svitrio.com)** | Headless CMS and business platform: pages, i18n, tickets, licensing, analytics. Runs every site listed here. |
+| **[torii](https://torii.sh)** | A change-centric version control system. Clean break from git's model, built for how people actually work with AI agents. |
+| **[gitorii](https://gitorii.com)** | The `torii` CLI over ordinary git repositories — browse a remote on GitHub or GitLab without cloning it first. The on-ramp to torii for repos that are staying on git. |
+| **[inro](https://inro.syrakon.com)** | Small, dense multi-tenant runtime. Thousands of isolated databases per box, kilobytes of RAM each. |
+| **galeon** | Provisioning and orchestration control plane. Turns "this customer bought this plan" into a running, isolated tenant on a k3s cluster, and keeps it that way. Closed source. |
+
+Plus the plumbing nobody sees: a compression codec line, a mail relay, provisioning scripts, and a self-hosted edge that serves all of the above from one machine.
+
+---
+
+## Notes
+
+- Most of my day-to-day work lives on **[GitLab](https://gitlab.com/paskidev)**; GitHub mirrors the parts that are open.
+- I write about the internals — measured, with diagrams — at **[rumb.net](https://rumb.net)**.
+- Open to talking about databases, storage formats and small-footprint infrastructure.
