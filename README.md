@@ -8,6 +8,9 @@ Databases, version control, container orchestration and the web layer on top of 
 [![Syrakon](https://img.shields.io/badge/Syrakon-1f2937?style=for-the-badge)](https://syrakon.com)
 [![Logbook](https://img.shields.io/badge/rumb.net-logbook-0f766e?style=for-the-badge)](https://rumb.net)
 [![Email](https://img.shields.io/badge/public%40paski.dev-EA4335?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:public@paski.dev)
+[![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/paski.dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pasqual-penalver)
+[![Threads](https://img.shields.io/badge/Threads-000000?style=for-the-badge&logo=threads&logoColor=white)](https://www.threads.net/@paskidev)
 
 ---
 
@@ -44,15 +47,25 @@ Databases, version control, container orchestration and the web layer on top of 
 
 ## What I work on
 
-| Project | What it is |
-| --- | --- |
-| **[arkeion](https://arkeion.tech)** | Versioned, audited database engine written in Rust. Every write is a signed commit; full-text search, vectors and time travel are first-class, not extensions. |
-| **[quota](https://quota.at)** | Usage metering and billing for EU teams. One URL change instead of an integration sprint. |
-| **[svitrio](https://svitrio.com)** | Headless CMS and business platform: pages, i18n, tickets, licensing, analytics. Runs every site listed here. |
-| **[torii](https://torii.sh)** | A change-centric version control system. Clean break from git's model, built for how people actually work with AI agents. |
-| **[gitorii](https://gitorii.com)** | The `torii` CLI over ordinary git repositories — browse a remote on GitHub or GitLab without cloning it first. The on-ramp to torii for repos that are staying on git. |
-| **[inro](https://inro.syrakon.com)** | Small, dense multi-tenant runtime. Thousands of isolated databases per box, kilobytes of RAM each. |
-| **galeon** | Provisioning and orchestration control plane. Turns "this customer bought this plan" into a running, isolated tenant on a k3s cluster, and keeps it that way. Closed source. |
+**Data**
+
+- **[arkeion](https://arkeion.tech)** — versioned, audited database engine in Rust. Every write is a signed commit.
+- **[inro](https://inro.syrakon.com)** — dense multi-tenant runtime. Thousands of isolated databases per box.
+
+**Version control**
+
+- **[torii](https://torii.sh)** — change-centric version control, built for working with AI agents.
+- **[gitorii](https://gitorii.com)** — the `torii` CLI over plain git repos. Browse a remote without cloning.
+
+**Platform**
+
+- **[svitrio](https://svitrio.com)** — headless CMS and business platform. Runs every site listed here.
+- **[quota](https://quota.at)** — usage metering and billing for EU teams.
+- **galeon** — provisioning control plane that turns a purchased plan into a running tenant on k3s. Closed source.
+
+**Writing**
+
+- **[rumb](https://rumb.net)** — logbook on the internals of all of the above, measured and with diagrams.
 
 Plus the plumbing nobody sees: a compression codec line, a mail relay, provisioning scripts, and a self-hosted edge that serves all of the above from one machine.
 
