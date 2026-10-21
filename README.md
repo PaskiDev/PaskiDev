@@ -6,7 +6,6 @@ Databases, version control, container orchestration and the web layer on top of 
 
 [![Website](https://img.shields.io/badge/paski.dev-111111?style=for-the-badge&logo=firefoxbrowser&logoColor=white)](https://paski.dev)
 [![Syrakon](https://img.shields.io/badge/Syrakon-1f2937?style=for-the-badge)](https://syrakon.com)
-[![Logbook](https://img.shields.io/badge/rumb.net-logbook-0f766e?style=for-the-badge)](https://rumb.net)
 [![Email](https://img.shields.io/badge/public%40paski.dev-EA4335?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:public@paski.dev)
 [![Bluesky](https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white)](https://bsky.app/profile/paski.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pasqual-penalver)
