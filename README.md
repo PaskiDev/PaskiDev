@@ -51,13 +51,13 @@ Databases, version control, container orchestration and the web layer on top of 
 
 **Data**
 
-- **[arkeion](https://arkeion.tech)** — versioned, audited database engine in Rust. Every write is a signed commit.
-- **[inro](https://inro.syrakon.com)** — dense multi-tenant runtime. Thousands of isolated databases per box.
+- **[arkeion](https://arkeion.tech)** — versioned, audited database engine in Rust. Every write is a signed commit. Open source.
+- **[inro](https://inro.syrakon.com)** — dense multi-tenant runtime. Thousands of isolated databases per box. Open source.
 
 **Version control**
 
 - **[torii](https://torii.sh)** — change-centric version control, built for working with AI agents.
-- **[gitorii](https://gitorii.com)** — the `torii` CLI over plain git repos. Browse a remote without cloning.
+- **[gitorii](https://gitorii.com)** — the `torii` CLI over plain git repos. Browse a remote without cloning. Open source.
 
 **Platform**
 
