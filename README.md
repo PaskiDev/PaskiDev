@@ -67,7 +67,7 @@ Databases, version control, container orchestration and the web layer on top of 
 
 **Browser**
 
-- **[rumb](https://rumb.net)** — experimental Rust web browser. Servo for the content, Zed's GPUI for the chrome. Pre-alpha.
+- **[rumb](https://rumb.net)** — experimental Rust web browser. Servo for the content, Zed's GPUI for the chrome. Pre-alpha. Its Servo fork, [tramuntana](https://gitlab.com/syrakon/tramuntana), is open source (MPL-2.0); the browser shell is proprietary.
 
 Plus the plumbing nobody sees: a compression codec line, a mail relay, provisioning scripts, and a self-hosted edge that serves all of the above from one machine.
 
