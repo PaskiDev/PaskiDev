@@ -62,9 +62,9 @@ Databases, version control, container orchestration and the web layer on top of 
 - **[quota](https://quota.at)** — usage metering and billing for EU teams.
 - **galeon** — provisioning control plane that turns a purchased plan into a running tenant on k3s. Closed source.
 
-**Writing**
+**Browser**
 
-- **[rumb](https://rumb.net)** — logbook on the internals of all of the above, measured and with diagrams.
+- **[rumb](https://rumb.net)** — experimental Rust web browser. Servo for the content, Zed's GPUI for the chrome. Pre-alpha.
 
 Plus the plumbing nobody sees: a compression codec line, a mail relay, provisioning scripts, and a self-hosted edge that serves all of the above from one machine.
 
@@ -73,5 +73,4 @@ Plus the plumbing nobody sees: a compression codec line, a mail relay, provision
 ## Notes
 
 - Most of my day-to-day work lives on **[GitLab](https://gitlab.com/paskidev)**; GitHub mirrors the parts that are open.
-- I write about the internals — measured, with diagrams — at **[rumb.net](https://rumb.net)**.
 - Open to talking about databases, storage formats and small-footprint infrastructure.
