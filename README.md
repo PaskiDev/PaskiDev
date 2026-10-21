@@ -63,7 +63,7 @@ Databases, version control, container orchestration and the web layer on top of 
 
 - **[svitrio](https://svitrio.com)** — headless CMS and business platform. Runs every site listed here.
 - **[quota](https://quota.at)** — usage metering and billing for EU teams.
-- **galeon** — provisioning control plane that turns a purchased plan into a running tenant on k3s. Closed source.
+- **galeon** — provisioning control plane that turns a purchased plan into a running tenant on k3s. Closed source for now, open-sourcing is planned.
 
 **Browser**
 
